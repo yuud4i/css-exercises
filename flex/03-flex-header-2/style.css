@@ -26,7 +26,7 @@ body {
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
-  font-style: italic;
+  font-style: italic;/home/yuud4i/repos/css-exercises/flex/03-flex-header-2/desired-outcome.gif
 }
 
 button {
@@ -45,4 +45,31 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+
+/* solution */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 8px;
+}
+
+ul {
+  display: flex;
+  gap: 8px;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-right: 8px;
 }
